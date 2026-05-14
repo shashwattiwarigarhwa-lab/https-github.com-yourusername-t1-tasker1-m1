@@ -1,5 +1,6 @@
+import { ProjectRole, TaskPriority, TaskStatus } from "../src/types/enums";
 import bcrypt from "bcryptjs";
-import { PrismaClient, ProjectRole, TaskPriority, TaskStatus } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 

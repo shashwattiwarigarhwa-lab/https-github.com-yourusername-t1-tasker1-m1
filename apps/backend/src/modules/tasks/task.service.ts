@@ -1,4 +1,5 @@
-import { ActivityType, ProjectRole, TaskPriority, TaskStatus } from "@prisma/client";
+import { ProjectRole, TaskPriority, TaskStatus, ActivityType } from "../../types/enums";
+
 import { prisma } from "../../config/prisma.js";
 import { ApiError } from "../../utils/ApiError.js";
 import { assertAdmin, assertMember } from "../projects/project.service.js";

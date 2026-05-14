@@ -1,0 +1,26 @@
+export enum ProjectRole {
+  ADMIN = "ADMIN",
+  MEMBER = "MEMBER"
+}
+
+export enum TaskPriority {
+  LOW = "LOW",
+  MEDIUM = "MEDIUM",
+  HIGH = "HIGH"
+}
+
+export enum TaskStatus {
+  TODO = "TODO",
+  IN_PROGRESS = "IN_PROGRESS",
+  DONE = "DONE"
+}
+
+export enum ActivityType {
+  PROJECT_CREATED = "PROJECT_CREATED",
+  MEMBER_ADDED = "MEMBER_ADDED",
+  MEMBER_REMOVED = "MEMBER_REMOVED",
+  TASK_CREATED = "TASK_CREATED",
+  TASK_UPDATED = "TASK_UPDATED",
+  TASK_DELETED = "TASK_DELETED",
+  TASK_STATUS_UPDATED = "TASK_STATUS_UPDATED"
+}

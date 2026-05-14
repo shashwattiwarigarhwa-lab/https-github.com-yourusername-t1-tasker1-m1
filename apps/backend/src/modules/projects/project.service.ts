@@ -1,4 +1,5 @@
-import { ActivityType, ProjectRole } from "@prisma/client";
+import { ProjectRole, ActivityType } from "../../types/enums";
+
 import { prisma } from "../../config/prisma.js";
 import { ApiError } from "../../utils/ApiError.js";
 

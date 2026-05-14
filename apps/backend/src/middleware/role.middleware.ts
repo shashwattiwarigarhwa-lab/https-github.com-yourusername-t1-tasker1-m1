@@ -1,4 +1,5 @@
-import { ProjectRole } from "@prisma/client";
+import { ProjectRole } from "../types/enums";
+
 import type { NextFunction, Request, Response } from "express";
 import { prisma } from "../config/prisma.js";
 import { ApiError } from "../utils/ApiError.js";

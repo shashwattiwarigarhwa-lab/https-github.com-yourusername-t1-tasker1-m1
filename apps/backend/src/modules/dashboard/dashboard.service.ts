@@ -1,4 +1,5 @@
-import { Prisma, ProjectRole, TaskStatus } from "@prisma/client";
+import { ProjectRole, TaskStatus } from "../../types/enums";
+import { Prisma } from "@prisma/client";
 import { prisma } from "../../config/prisma.js";
 import { assertMember } from "../projects/project.service.js";
 

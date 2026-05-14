@@ -1,5 +1,6 @@
+import { TaskPriority, TaskStatus } from "../../types/enums";
 import type { Request, Response } from "express";
-import type { TaskPriority, TaskStatus } from "@prisma/client";
+
 import { asyncHandler } from "../../utils/asyncHandler.js";
 import * as taskService from "./task.service.js";
 
