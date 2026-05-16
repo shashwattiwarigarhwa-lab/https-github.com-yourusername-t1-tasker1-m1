@@ -13,8 +13,8 @@ POST /api/auth/signup
 Content-Type: application/json
 
 {
-  "name": "Shashwat Kumar",
-  "email": "shashwat@example.com",
+  "name": "John Doe",
+  "email": "user@example.com",
   "password": "Password123!"
 }
 ```
@@ -26,7 +26,7 @@ POST /api/auth/login
 Content-Type: application/json
 
 {
-  "email": "shashwat@example.com",
+  "email": "user@example.com",
   "password": "Password123!"
 }
 ```

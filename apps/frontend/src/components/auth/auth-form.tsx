@@ -67,7 +67,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
             {isSignup ? (
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>
-                <Input id="name" placeholder="Shashwat Kumar" {...register("name")} />
+                <Input id="name" {...register("name")} />
                 {errors.name ? <p className="text-sm text-destructive">{errors.name.message}</p> : null}
               </div>
             ) : null}
